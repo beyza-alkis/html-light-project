@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Light</title>
+    <style>
+        div {
+        text-align: center;
+        border: 5px solid violet;
+        background-color: violet;
+        padding: 15%;
+        }
+        button {
+        border: 2px solid darkCyan;
+        background-color: darkCyan;
+        color: white;
+        }
+        h1 {
+        text-align: center;
+        color: white;
+        background-color: violet;
+        }
+    </style>
+
+</head>
+<body>
+<h1>Turn The Light</h1>
+<div class="bb">
+
+    <button onclick="document.getElementById('mint').src = 'pic_bulbon.gif'">Turn The Light On</button>
+    <img src="pic_bulboff.gif" id="mint" width="100px">
+    <button onclick="document.getElementById('mint').src = 'pic_bulboff.gif'">Turn The Light Off</button>
+
+</div>
+
+</body>
+</html>
